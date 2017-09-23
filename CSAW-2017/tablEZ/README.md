@@ -54,9 +54,8 @@ print result[0:8][::-1] + result[8:16][::-1] + result[16:24][::-1] + result[24:3
 
 
 
-
-[tablez-1]: https://github.com/bruceshenzk/CTF-WriteUp/master/CSAW-2017/tablEZ/img/tablez-1.png
-[tablez-2]: https://github.com/bruceshenzk/CTF-WriteUp/master/CSAW-2017/tablEZ/img/tablez-2.png
-[tablez-3]: https://github.com/bruceshenzk/CTF-WriteUp/master/CSAW-2017/tablEZ/img/tablez-3.png
-[tablez-4]: https://github.com/bruceshenzk/CTF-WriteUp/master/CSAW-2017/tablEZ/img/tablez-4.png
-[tablez-5]: https://github.com/bruceshenzk/CTF-WriteUp/master/CSAW-2017/tablEZ/img/tablez-4.png
+[tablez-1]: https://github.com/bruceshenzk/CTF-WriteUp/blob/master/CSAW-2017/tablEZ/img/tablez-1.png
+[tablez-2]: https://github.com/bruceshenzk/CTF-WriteUp/blob/master/CSAW-2017/tablEZ/img/tablez-2.png
+[tablez-3]: https://github.com/bruceshenzk/CTF-WriteUp/blob/master/CSAW-2017/tablEZ/img/tablez-3.png
+[tablez-4]: https://github.com/bruceshenzk/CTF-WriteUp/blob/master/CSAW-2017/tablEZ/img/tablez-4.png
+[tablez-5]: https://github.com/bruceshenzk/CTF-WriteUp/blob/master/CSAW-2017/tablEZ/img/tablez-4.png
