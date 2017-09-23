@@ -12,20 +12,21 @@ Thus, we infer that the flag is stored in the bianry file somehow.
 
 Take a look of the binary.
 The main function:
-[tablez-1]
-[tablez-2]
+![alt text][tablez-1]
+![alt text][tablez-2]
 We can see that [rbp-0x90] is the address of input, and [rbp-0xc8] is the length of input.
 
 We see a compare between [rbp-0xc8] and 0x25, which means the length of input is 37.
 
 At the bottom, there is a comparison between [rbp-0xc0] and [rbp-0x90]. 
 
-[rbp-0xc0] is defined earlier in the main function. [tablez-5]
+[rbp-0xc0] is defined earlier in the main function. 
+![alt text][tablez-5]
 Thus [rbp-0xc0] is "b1e711f59d73b32730f4f9f9b399beb3b19965237399711bf9279923be11116565059923ce". (Notice that we ignored the endian here)
 
 Thus, we need [rbp-0x90] == [rbp-0xc0]
 On the left part of the main function, we can seea loop. Every byte of the input is passed to another function get_tbl_entry. The input might have been modified there. 
-[tablez-3]
+![alt text][tablez-3]
 The structure of the control flow graph, we see a while loop, with [rbp-0x8] < 0xfe as the premise. Also, byte[rbp-0x14] would be the byte passed in from input.
 
 ```
