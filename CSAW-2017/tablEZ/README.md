@@ -41,6 +41,7 @@ while(index < 0xfe) {
 ```
 Actually, trans_tbl is addr 0x201280, and data_201281 is addr 0x201281. Thus we can assume that data at 201280 is like the following.
 (key1,value1),(key2,value2),...
+![alt text][tablez-4]
 
 Thus we copy down the table for the use of translation.
 
@@ -59,4 +60,4 @@ By running the provided script, we can see the flag is ```flag{t4ble_l00kups_ar3
 [tablez-2]: https://github.com/bruceshenzk/CTF-WriteUp/blob/master/CSAW-2017/tablEZ/img/tablez-2.png
 [tablez-3]: https://github.com/bruceshenzk/CTF-WriteUp/blob/master/CSAW-2017/tablEZ/img/tablez-3.png
 [tablez-4]: https://github.com/bruceshenzk/CTF-WriteUp/blob/master/CSAW-2017/tablEZ/img/tablez-4.png
-[tablez-5]: https://github.com/bruceshenzk/CTF-WriteUp/blob/master/CSAW-2017/tablEZ/img/tablez-4.png
+[tablez-5]: https://github.com/bruceshenzk/CTF-WriteUp/blob/master/CSAW-2017/tablEZ/img/tablez-5.png
