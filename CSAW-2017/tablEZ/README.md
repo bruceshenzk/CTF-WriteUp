@@ -50,6 +50,7 @@ Finally, in the code, we need to correct the endian, by using the following prin
 ```
 print result[0:8][::-1] + result[8:16][::-1] + result[16:24][::-1] + result[24:32][::-1] + result[32:36][::-1] + result[36]
 ```
+By running the provided script, we can see the flag is ```flag{t4ble_l00kups_ar3_b3tter_f0r_m3}```
 
 
 
