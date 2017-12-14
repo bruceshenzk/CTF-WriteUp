@@ -22,7 +22,7 @@ def correct (input):
 	else:
 		return "0"
 
-r = remote("misc.chal.csaw.io", 4239)
+r = remote("localhost", 8000)
 
 print(r.recvuntil("retransmit."))
 r.recvline()
@@ -33,17 +33,11 @@ while True:
 	except:
 		break
 
-	print "DEBUG:", round, line#, correct(line)
+	# print "DEBUG:", round, line#, correct(line)
 	r.sendline(correct(line))
 	round += 1
 print "flag{".encode("hex")
 flag = ""
 print "".join([chr(int(b,2)) for b in bytes])
 
-# print [b[::-1] for b in bytes]
-# print [int(b[::-1],2) for b in bytes]
-# print [chr(int(b[::-1],2)) for b in bytes]
-# print [chr(int(),2)) for b in bytes]
-
-#r.interactive()
 
